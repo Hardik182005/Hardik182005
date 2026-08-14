@@ -34,9 +34,9 @@
     <circle cx="130" cy="51" r="27" fill="none" stroke="#a78bfa" stroke-width="3" stroke-dasharray="5 7">
       <animateTransform attributeName="transform" type="rotate" from="360 130 51" to="0 130 51" dur="4.6s" repeatCount="indefinite"/>
     </circle>
-    <text x="130" y="61" text-anchor="middle" class="big">4X</text>
-    <text x="130" y="108" text-anchor="middle" class="mid">INNOVAHACK FINALIST</text>
-    <text x="130" y="136" text-anchor="middle" class="small">consistent execution</text>
+    <text x="130" y="61" text-anchor="middle" class="big">8X</text>
+    <text x="130" y="108" text-anchor="middle" class="mid">HACKATHON FINALIST</text>
+    <text x="130" y="136" text-anchor="middle" class="small">4 wins • 4 more finals</text>
   </g>
 
   <g transform="translate(616 72)">
