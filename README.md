@@ -26,11 +26,11 @@ I am **Hardik Hinduja**, an AI engineer and builder focused on **agentic systems
 
 My projects are designed around a simple principle: **the model may explain, but critical facts, money, permissions, and safety decisions must remain verifiable**. I enjoy turning ambitious hackathon ideas into working products with real APIs, tests, observability, and live deployments.
 
-- 🏆 **4× hackathon winner / podium finalist**
+- 🏆 **4× hackathon winner**
 - 🥇 **NetElixir AIgnition 3.0 Winner** — Team Kryptonite
 - 🥈 **Anakin Build-a-thon — 2nd Place** with ZeroOne
 - 🥉 **KLEOS 4.0 — Second Runner-Up** with GigFolio
-- 🚀 **4× InnovaHack Finalist**
+- 🏅 **8× hackathon finalist overall** — 4 wins and 4 additional finalist finishes, including InnovaHack
 - 🎤 Presented **MergerMindAI**, an M&A due-diligence platform, at **IIM Bangalore during VENIX 2026**
 - 🎓 AI & Data Science student at **VESIT**, Mumbai
 
