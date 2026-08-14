@@ -1,0 +1,35 @@
+name: Generate 3D contribution universe
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "31 19 * * *"
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "profile-3d-contrib/**"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - name: Generate animated 3D contribution calendars
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+      - name: Commit generated universe
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A profile-3d-contrib
+          if git commit -m "chore: update 3D contribution universe"; then
+            git push
+          fi
+

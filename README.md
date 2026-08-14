@@ -4,7 +4,9 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2600&pause=700&color=22D3EE&center=true&vCenter=true&width=900&lines=AI+Engineer+%7C+Agentic+Systems+%7C+Applied+ML;Building+RAG%2C+FinTech%2C+HealthTech+%26+SRE+AI;4x+Hackathon+Winner+%2F+Podium+Finalist;From+prototype+to+live+cloud+product" alt="Animated introduction" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=28&duration=2100&pause=550&color=22D3EE&center=true&vCenter=true&width=1000&height=72&lines=HARDIK+HINDUJA+%2F%2F+AI+ENGINEER;AGENTIC+AI+SYSTEMS+ARCHITECT;RAG+%E2%80%A2+MULTI-AGENT+%E2%80%A2+FINTECH+%E2%80%A2+SRE;4X+HACKATHON+WINNER+%E2%80%A2+4X+INNOVAHACK+FINALIST;MERGERMINDAI+%2F%2F+PITCHED+AT+IIM+BANGALORE" alt="Animated AI Engineer introduction" />
+
+<img src="assets/ai-engineer-terminal.svg" alt="Animated Hardik Hinduja AI Engineer command center" width="100%" />
 
 <p>
   <a href="https://www.linkedin.com/in/hardik-hinduja-1a5358216/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
@@ -29,6 +31,14 @@ My projects are designed around a simple principle: **the model may explain, but
 - 🚀 **4× InnovaHack Finalist**
 - 🎤 Presented **MergerMindAI**, an M&A due-diligence platform, at **IIM Bangalore during VENIX 2026**
 - 🎓 AI & Data Science student at **VESIT**, Mumbai
+
+## AI systems online
+
+<div align="center">
+
+<img src="assets/agentic-ai-pipeline.svg" alt="Animated agentic AI delivery pipeline" width="100%" />
+
+</div>
 
 ## Flagship builds
 
@@ -66,12 +76,23 @@ My projects are designed around a simple principle: **the model may explain, but
 
 <div align="center">
 
+<img src="https://github-profile-trophy.vercel.app/?username=Hardik182005&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=6" width="96%" alt="GitHub trophies" />
+
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Hardik182005&theme=tokyonight" width="96%" alt="GitHub profile summary" />
 
-<img src="https://streak-stats.demolab.com?user=Hardik182005&theme=tokyonight&hide_border=true&background=0D1117&ring=22D3EE&fire=A78BFA&currStreakLabel=22D3EE" width="56%" alt="GitHub contribution streak" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Hardik182005&theme=tokyonight" width="40%" alt="Top languages" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Hardik182005&theme=tokyonight" width="48%" alt="GitHub statistics" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Hardik182005&theme=tokyonight&utcOffset=5.5" width="48%" alt="Productive coding time" />
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Hardik182005&theme=tokyonight" width="48%" alt="Top languages by repository" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Hardik182005&theme=tokyonight" width="48%" alt="Top languages by commit" />
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hardik182005&bg_color=0d1117&color=22d3ee&line=a78bfa&point=f59e0b&area=true&hide_border=true" width="96%" alt="GitHub activity graph" />
+
+### 3D contribution universe
+
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="96%" alt="Animated 3D GitHub contribution universe" />
+
+### Contribution snake
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hardik182005/Hardik182005/output/github-contribution-grid-snake-dark.svg" />

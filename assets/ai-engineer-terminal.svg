@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Hardik Hinduja AI Engineer animated command center</title>
+  <desc id="desc">A neon animated terminal showing Hardik Hinduja's AI engineering systems online.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b1a"/>
+      <stop offset="0.52" stop-color="#0b1230"/>
+      <stop offset="1" stop-color="#130a2b"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.52" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <radialGradient id="core">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.18" stop-color="#67e8f9"/>
+      <stop offset="0.55" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#111827"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#22d3ee" stroke-opacity="0.07"/>
+    </pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .label{font:700 28px 'Segoe UI',Arial,sans-serif;letter-spacing:2px;fill:#e6faff}
+    .mono{font:600 17px 'Cascadia Code','JetBrains Mono',monospace;fill:#8be9fd}
+    .muted{font:500 14px 'Cascadia Code','JetBrains Mono',monospace;fill:#94a3b8}
+    .flow{stroke-dasharray:10 16;animation:flow 2.8s linear infinite}
+    .blink{animation:blink 1s steps(2,end) infinite}
+    .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2s ease-in-out infinite}
+    @keyframes flow{to{stroke-dashoffset:-52}}
+    @keyframes blink{50%{opacity:.08}}
+    @keyframes pulse{50%{transform:scale(1.18);opacity:.62}}
+  </style>
+
+  <rect width="1200" height="320" rx="26" fill="url(#panel)"/>
+  <rect x="1.5" y="1.5" width="1197" height="317" rx="24.5" fill="none" stroke="url(#neon)" stroke-width="3"/>
+  <rect x="22" y="22" width="1156" height="276" rx="18" fill="url(#grid)" stroke="#334155"/>
+
+  <circle cx="48" cy="46" r="6" fill="#fb7185"/>
+  <circle cx="68" cy="46" r="6" fill="#fbbf24"/>
+  <circle cx="88" cy="46" r="6" fill="#34d399"/>
+  <text x="116" y="53" class="muted">NEURAL COMMAND CENTER / PRODUCTION CHANNEL</text>
+  <path d="M38 68H1162" stroke="#334155"/>
+
+  <text x="54" y="112" class="label">HARDIK HINDUJA // AI ENGINEER</text>
+  <text x="56" y="148" class="mono">&gt; boot agentic-ai.runtime --mode production</text>
+  <text x="56" y="181" class="mono">✓ RAG PIPELINE</text>
+  <text x="242" y="181" class="muted">citations + provenance + privacy</text>
+  <text x="56" y="213" class="mono">✓ MULTI-AGENT ORCHESTRATION</text>
+  <text x="370" y="213" class="muted">guardrails active</text>
+  <text x="56" y="245" class="mono">✓ CLOUD DELIVERY</text>
+  <text x="246" y="245" class="muted">APIs + evals + observability + scale</text>
+  <text x="56" y="277" class="mono">system.status = ONLINE</text>
+  <rect x="284" y="261" width="11" height="20" rx="2" fill="#22d3ee" class="blink"/>
+
+  <g transform="translate(885 169)">
+    <circle r="61" fill="none" stroke="#22d3ee" stroke-opacity="0.25" stroke-width="2" class="pulse"/>
+    <circle r="43" fill="none" stroke="#a78bfa" stroke-opacity="0.6" stroke-width="2" stroke-dasharray="7 9" class="flow"/>
+    <circle r="20" fill="url(#core)" filter="url(#glow)" class="pulse"/>
+    <g fill="#67e8f9" filter="url(#glow)">
+      <circle cx="-92" cy="-58" r="5"><animate attributeName="opacity" values=".25;1;.25" dur="2.2s" repeatCount="indefinite"/></circle>
+      <circle cx="92" cy="-68" r="5"><animate attributeName="opacity" values="1;.25;1" dur="2.7s" repeatCount="indefinite"/></circle>
+      <circle cx="104" cy="56" r="5"><animate attributeName="opacity" values=".35;1;.35" dur="1.9s" repeatCount="indefinite"/></circle>
+      <circle cx="-99" cy="70" r="5"><animate attributeName="opacity" values="1;.3;1" dur="2.4s" repeatCount="indefinite"/></circle>
+    </g>
+    <g stroke="url(#neon)" stroke-width="2" fill="none" opacity="0.8">
+      <path d="M-87-55L-36-22M87-64L34-25M99 53L36 23M-94 66L-34 24" class="flow"/>
+    </g>
+  </g>
+
+  <g transform="translate(1048 112)">
+    <rect width="104" height="114" rx="18" fill="#0f172a" stroke="#6366f1" stroke-width="2"/>
+    <rect x="17" y="20" width="70" height="48" rx="14" fill="#020617" stroke="#22d3ee"/>
+    <path d="M36 44q8 11 16 0M59 44q8 11 16 0" fill="none" stroke="#67e8f9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M29 83H75" stroke="#a78bfa" stroke-width="5" stroke-linecap="round" class="pulse"/>
+  </g>
+
+  <rect x="-260" y="23" width="210" height="274" fill="#22d3ee" opacity="0.035" transform="skewX(-14)">
+    <animate attributeName="x" from="-260" to="1320" dur="4.5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
+
