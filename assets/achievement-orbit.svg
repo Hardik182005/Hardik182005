@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="290" viewBox="0 0 1200 290" role="img" aria-labelledby="title desc">
+  <title id="title">Animated achievement board for Hardik Hinduja</title>
+  <desc id="desc">Four hackathon achievements pulse in a neon AI interface.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#060918"/><stop offset=".55" stop-color="#0b1530"/><stop offset="1" stop-color="#16082c"/></linearGradient>
+    <linearGradient id="n" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#6366f1"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>
+    .title{font:800 20px 'Segoe UI',Arial,sans-serif;letter-spacing:2px;fill:#e6faff}
+    .big{font:800 24px 'Segoe UI',Arial,sans-serif;fill:#67e8f9}
+    .mid{font:700 16px 'Segoe UI',Arial,sans-serif;fill:#e2e8f0}
+    .small{font:500 12px 'Cascadia Code',monospace;fill:#94a3b8}
+    .card{fill:#0b1224;stroke:#334155;stroke-width:1.5;animation:card 3s ease-in-out infinite}
+    @keyframes card{50%{stroke:#6366f1;filter:drop-shadow(0 0 8px #6366f1)}}
+  </style>
+  <rect width="1200" height="290" rx="24" fill="url(#bg)"/>
+  <rect x="1.5" y="1.5" width="1197" height="287" rx="22.5" fill="none" stroke="url(#n)" stroke-width="3"/>
+  <text x="40" y="42" class="title">ACHIEVEMENT ORBIT // AI ENGINEER MILESTONES</text>
+  <text x="922" y="42" class="small">signal locked • building what is next</text>
+
+  <g transform="translate(30 72)">
+    <rect class="card" width="260" height="170" rx="18"/>
+    <circle cx="130" cy="51" r="27" fill="none" stroke="#22d3ee" stroke-width="3" stroke-dasharray="5 7">
+      <animateTransform attributeName="transform" type="rotate" from="0 130 51" to="360 130 51" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="130" y="61" text-anchor="middle" class="big">4X</text>
+    <text x="130" y="108" text-anchor="middle" class="mid">HACKATHON WINNER</text>
+    <text x="130" y="136" text-anchor="middle" class="small">podiums • products • impact</text>
+  </g>
+
+  <g transform="translate(323 72)">
+    <rect class="card" width="260" height="170" rx="18" style="animation-delay:.5s"/>
+    <circle cx="130" cy="51" r="27" fill="none" stroke="#a78bfa" stroke-width="3" stroke-dasharray="5 7">
+      <animateTransform attributeName="transform" type="rotate" from="360 130 51" to="0 130 51" dur="4.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="130" y="61" text-anchor="middle" class="big">4X</text>
+    <text x="130" y="108" text-anchor="middle" class="mid">INNOVAHACK FINALIST</text>
+    <text x="130" y="136" text-anchor="middle" class="small">consistent execution</text>
+  </g>
+
+  <g transform="translate(616 72)">
+    <rect class="card" width="260" height="170" rx="18" style="animation-delay:1s"/>
+    <path d="M130 24l9 18 20 3-15 14 4 20-18-10-18 10 4-20-15-14 20-3z" fill="#fbbf24" filter="url(#glow)">
+      <animate attributeName="opacity" values=".55;1;.55" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <text x="130" y="108" text-anchor="middle" class="mid">NETELIXIR WINNER</text>
+    <text x="130" y="133" text-anchor="middle" class="small">AIgnition 3.0 • Kryptonite</text>
+  </g>
+
+  <g transform="translate(909 72)">
+    <rect class="card" width="260" height="170" rx="18" style="animation-delay:1.5s"/>
+    <g transform="translate(130 51)" fill="none" stroke="url(#n)" stroke-width="3">
+      <circle r="28"/><circle r="17"/><circle r="6" fill="#67e8f9" filter="url(#glow)"><animate attributeName="r" values="5;9;5" dur="2.2s" repeatCount="indefinite"/></circle>
+    </g>
+    <text x="130" y="104" text-anchor="middle" class="mid">IIM BANGALORE</text>
+    <text x="130" y="128" text-anchor="middle" class="small">VENIX 2026</text>
+    <text x="130" y="148" text-anchor="middle" class="small">MergerMindAI pitch</text>
+  </g>
+
+  <g fill="#67e8f9" filter="url(#glow)">
+    <circle r="4"><animateMotion dur="6s" repeatCount="indefinite" path="M30 258H1170"/></circle>
+    <circle r="3"><animateMotion begin="2s" dur="6s" repeatCount="indefinite" path="M30 258H1170"/></circle>
+    <circle r="3"><animateMotion begin="4s" dur="6s" repeatCount="indefinite" path="M30 258H1170"/></circle>
+  </g>
+  <path d="M30 258H1170" stroke="url(#n)" stroke-opacity=".35" stroke-width="2"/>
+</svg>
+
