@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="450" viewBox="0 0 1200 450" role="img" aria-labelledby="title desc">
+  <title id="title">Hardik Hinduja AI project constellation</title>
+  <desc id="desc">Animated constellation connecting eight flagship AI products to a central production AI core.</desc>
+  <defs>
+    <linearGradient id="space" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020617"/><stop offset=".48" stop-color="#081226"/><stop offset="1" stop-color="#170827"/></linearGradient>
+    <linearGradient id="rainbow" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22d3ee"/><stop offset=".35" stop-color="#60a5fa"/><stop offset=".7" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+    <radialGradient id="nucleus"><stop stop-color="#fff"/><stop offset=".12" stop-color="#67e8f9"/><stop offset=".4" stop-color="#2563eb"/><stop offset=".72" stop-color="#7c3aed"/><stop offset="1" stop-color="#020617"/></radialGradient>
+    <pattern id="stars" width="70" height="58" patternUnits="userSpaceOnUse"><circle cx="8" cy="10" r="1" fill="#fff" opacity=".22"/><circle cx="48" cy="37" r="1.2" fill="#67e8f9" opacity=".22"/><circle cx="65" cy="5" r=".8" fill="#c4b5fd" opacity=".25"/></pattern>
+    <filter id="glow3" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      text{font-family:'Segoe UI',Arial,sans-serif}.m{font-family:Consolas,'Courier New',monospace}.ring{transform-origin:600px 245px;animation:spin 18s linear infinite}.ring2{transform-origin:600px 245px;animation:back 12s linear infinite}.pulse{animation:p 2s ease-in-out infinite}.line{stroke-dasharray:4 12;animation:d 2s linear infinite}.node{animation:n 3s ease-in-out infinite}.n2{animation-delay:.35s}.n3{animation-delay:.7s}.n4{animation-delay:1.05s}.n5{animation-delay:1.4s}.n6{animation-delay:1.75s}.n7{animation-delay:2.1s}.n8{animation-delay:2.45s}
+      @keyframes spin{to{transform:rotate(360deg)}}@keyframes back{to{transform:rotate(-360deg)}}@keyframes p{0%,100%{opacity:.55}50%{opacity:1}}@keyframes d{to{stroke-dashoffset:-32}}@keyframes n{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+    </style>
+  </defs>
+  <rect width="1200" height="450" rx="26" fill="url(#space)"/>
+  <rect width="1200" height="450" rx="26" fill="url(#stars)"/>
+  <rect x="1.5" y="1.5" width="1197" height="447" rx="25" fill="none" stroke="url(#rainbow)" stroke-width="3" opacity=".55"/>
+  <text x="38" y="43" fill="#e2e8f0" font-size="21" font-weight="800" letter-spacing="3">FLAGSHIP AI PRODUCT CONSTELLATION</text>
+  <text x="1162" y="42" fill="#34d399" font-size="11" text-anchor="end" class="m">8 SYSTEMS // PRODUCTION MINDSET</text>
+  <path d="M38 58H1162" stroke="#334155"/>
+
+  <g fill="none" stroke-width="1.8" opacity=".65">
+    <path id="c1" class="line" d="M600 245L320 118" stroke="#22d3ee"/><path id="c2" class="line" d="M600 245L593 111" stroke="#60a5fa"/>
+    <path id="c3" class="line" d="M600 245L875 118" stroke="#a78bfa"/><path id="c4" class="line" d="M600 245L1005 226" stroke="#f472b6"/>
+    <path id="c5" class="line" d="M600 245L880 361" stroke="#34d399"/><path id="c6" class="line" d="M600 245L595 380" stroke="#fbbf24"/>
+    <path id="c7" class="line" d="M600 245L315 361" stroke="#38bdf8"/><path id="c8" class="line" d="M600 245L194 226" stroke="#c084fc"/>
+  </g>
+  <g fill="#fff" filter="url(#glow3)">
+    <circle r="4"><animateMotion dur="2.8s" repeatCount="indefinite"><mpath href="#c1"/></animateMotion></circle><circle r="4"><animateMotion dur="2.3s" begin="-.7s" repeatCount="indefinite"><mpath href="#c2"/></animateMotion></circle>
+    <circle r="4"><animateMotion dur="2.6s" begin="-.3s" repeatCount="indefinite"><mpath href="#c3"/></animateMotion></circle><circle r="4"><animateMotion dur="2.2s" begin="-1s" repeatCount="indefinite"><mpath href="#c4"/></animateMotion></circle>
+    <circle r="4"><animateMotion dur="2.7s" begin="-.5s" repeatCount="indefinite"><mpath href="#c5"/></animateMotion></circle><circle r="4"><animateMotion dur="2.4s" begin="-.9s" repeatCount="indefinite"><mpath href="#c6"/></animateMotion></circle>
+    <circle r="4"><animateMotion dur="2.9s" begin="-.4s" repeatCount="indefinite"><mpath href="#c7"/></animateMotion></circle><circle r="4"><animateMotion dur="2.5s" begin="-.6s" repeatCount="indefinite"><mpath href="#c8"/></animateMotion></circle>
+  </g>
+
+  <g>
+    <circle cx="600" cy="245" r="108" fill="none" stroke="#22d3ee" stroke-opacity=".15"/>
+    <circle cx="600" cy="245" r="91" fill="none" stroke="#818cf8" stroke-dasharray="3 12" class="ring"/>
+    <circle cx="600" cy="245" r="74" fill="none" stroke="#c084fc" stroke-dasharray="14 9" opacity=".65" class="ring2"/>
+    <circle cx="600" cy="245" r="60" fill="url(#nucleus)" filter="url(#glow3)" class="pulse"/>
+    <text x="600" y="234" fill="#fff" font-size="14" font-weight="900" text-anchor="middle" letter-spacing="2">PRODUCTION</text>
+    <text x="600" y="255" fill="#cffafe" font-size="17" font-weight="900" text-anchor="middle" letter-spacing="2">AI CORE</text>
+    <text x="600" y="276" fill="#c4b5fd" font-size="9" text-anchor="middle" class="m">EVIDENCE • SAFETY • SCALE</text>
+  </g>
+
+  <g class="node">
+    <rect x="235" y="82" width="170" height="72" rx="13" fill="#061725" stroke="#22d3ee" stroke-opacity=".68"/>
+    <circle cx="255" cy="102" r="5" fill="#22d3ee" class="pulse"/><text x="269" y="108" fill="#a5f3fc" font-size="15" font-weight="850">MergerMindAI</text>
+    <text x="255" y="130" fill="#64748b" font-size="9.5" class="m">M&amp;A RAG // IIM BANGALORE</text><text x="255" y="145" fill="#fbbf24" font-size="9" class="m">VENIX 2026 PITCH</text>
+  </g>
+  <g class="node n2">
+    <rect x="508" y="76" width="170" height="72" rx="13" fill="#091427" stroke="#60a5fa" stroke-opacity=".68"/>
+    <circle cx="528" cy="96" r="5" fill="#60a5fa" class="pulse"/><text x="542" y="102" fill="#bfdbfe" font-size="15" font-weight="850">SafeSpare AI</text>
+    <text x="528" y="124" fill="#64748b" font-size="9.5" class="m">FINANCE // 292 TESTS</text><text x="528" y="139" fill="#34d399" font-size="9" class="m">DETERMINISTIC SAFETY</text>
+  </g>
+  <g class="node n3">
+    <rect x="790" y="82" width="170" height="72" rx="13" fill="#100e27" stroke="#a78bfa" stroke-opacity=".68"/>
+    <circle cx="810" cy="102" r="5" fill="#a78bfa" class="pulse"/><text x="824" y="108" fill="#ddd6fe" font-size="15" font-weight="850">CredenceAI</text>
+    <text x="810" y="130" fill="#64748b" font-size="9.5" class="m">AGENT CREDIT // LEDGER</text><text x="810" y="145" fill="#c4b5fd" font-size="9" class="m">IDENTITY + POLICY</text>
+  </g>
+  <g class="node n4">
+    <rect x="965" y="190" width="180" height="72" rx="13" fill="#170d21" stroke="#f472b6" stroke-opacity=".68"/>
+    <circle cx="985" cy="210" r="5" fill="#f472b6" class="pulse"/><text x="999" y="216" fill="#fbcfe8" font-size="15" font-weight="850">ZeroOne</text>
+    <text x="985" y="238" fill="#64748b" font-size="9.5" class="m">LIVE MARKET INTELLIGENCE</text><text x="985" y="253" fill="#f9a8d4" font-size="9" class="m">MULTI-MODEL REASONING</text>
+  </g>
+  <g class="node n5">
+    <rect x="795" y="325" width="170" height="72" rx="13" fill="#071b18" stroke="#34d399" stroke-opacity=".68"/>
+    <circle cx="815" cy="345" r="5" fill="#34d399" class="pulse"/><text x="829" y="351" fill="#a7f3d0" font-size="15" font-weight="850">IncidentIQ</text>
+    <text x="815" y="373" fill="#64748b" font-size="9.5" class="m">AUTONOMOUS SRE AGENT</text><text x="815" y="388" fill="#6ee7b7" font-size="9" class="m">ROOT CAUSE → FIX</text>
+  </g>
+  <g class="node n6">
+    <rect x="510" y="344" width="170" height="72" rx="13" fill="#1a1508" stroke="#fbbf24" stroke-opacity=".68"/>
+    <circle cx="530" cy="364" r="5" fill="#fbbf24" class="pulse"/><text x="544" y="370" fill="#fde68a" font-size="15" font-weight="850">DocVault AI</text>
+    <text x="530" y="392" fill="#64748b" font-size="9.5" class="m">CITATION-FIRST RAG</text><text x="530" y="407" fill="#fcd34d" font-size="9" class="m">OCR + PAGE EVIDENCE</text>
+  </g>
+  <g class="node n7">
+    <rect x="230" y="325" width="170" height="72" rx="13" fill="#061723" stroke="#38bdf8" stroke-opacity=".68"/>
+    <circle cx="250" cy="345" r="5" fill="#38bdf8" class="pulse"/><text x="264" y="351" fill="#bae6fd" font-size="15" font-weight="850">BISense AI</text>
+    <text x="250" y="373" fill="#64748b" font-size="9.5" class="m">STANDARDS INTELLIGENCE</text><text x="250" y="388" fill="#7dd3fc" font-size="9" class="m">VERIFIED CORPUS</text>
+  </g>
+  <g class="node n8">
+    <rect x="55" y="190" width="180" height="72" rx="13" fill="#130e24" stroke="#c084fc" stroke-opacity=".68"/>
+    <circle cx="75" cy="210" r="5" fill="#c084fc" class="pulse"/><text x="89" y="216" fill="#e9d5ff" font-size="15" font-weight="850">CollabForge AI</text>
+    <text x="75" y="238" fill="#64748b" font-size="9.5" class="m">CREATOR INTELLIGENCE</text><text x="75" y="253" fill="#d8b4fe" font-size="9" class="m">RESEARCH → CAMPAIGN</text>
+  </g>
+</svg>
+

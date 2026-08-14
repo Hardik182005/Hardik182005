@@ -4,7 +4,9 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=28&duration=2100&pause=550&color=22D3EE&center=true&vCenter=true&width=1000&height=72&lines=HARDIK+HINDUJA+%2F%2F+AI+ENGINEER;AGENTIC+AI+SYSTEMS+ARCHITECT;RAG+%E2%80%A2+MULTI-AGENT+%E2%80%A2+FINTECH+%E2%80%A2+SRE;4X+HACKATHON+WINNER+%E2%80%A2+4X+INNOVAHACK+FINALIST;MERGERMINDAI+%2F%2F+PITCHED+AT+IIM+BANGALORE" alt="Animated AI Engineer introduction" />
+<img src="assets/cyber-ai-hero.svg" alt="Hardik Hinduja — AI Engineer animated cyber command center" width="100%" />
+
+<h1>AI Engineer • Agentic Systems Architect • Builder</h1>
 
 <img src="assets/ai-engineer-terminal.svg" alt="Animated Hardik Hinduja AI Engineer command center" width="100%" />
 
@@ -40,7 +42,23 @@ My projects are designed around a simple principle: **the model may explain, but
 
 </div>
 
+## Autonomous agent swarm
+
+<div align="center">
+
+<img src="assets/agent-swarm.svg" alt="Animated autonomous AI agent swarm with researcher, retriever, reasoner, verifier, guardian, and deployer agents" width="100%" />
+
+**Research → retrieve → reason → verify → guard → deploy. Every agent has a job; every critical output has evidence.**
+
+</div>
+
 ## Flagship builds
+
+<div align="center">
+
+<img src="assets/project-constellation.svg" alt="Animated constellation of Hardik Hinduja's flagship AI engineering projects" width="100%" />
+
+</div>
 
 | Project | What it does | Engineering focus |
 |---|---|---|
