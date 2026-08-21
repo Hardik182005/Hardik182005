@@ -106,7 +106,7 @@ My projects are designed around a simple principle: **the model may explain, but
 
 ### 3D contribution universe
 
-<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="96%" alt="Animated 3D GitHub contribution universe" />
+<img src="https://raw.githubusercontent.com/Hardik182005/Hardik182005/main/profile-3d-contrib/profile-night-rainbow.svg?v=20260821-1179" width="96%" alt="Animated 3D GitHub contribution universe — 1,179 contributions" />
 
 ### Contribution snake
 
