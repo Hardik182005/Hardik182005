@@ -98,7 +98,7 @@ My projects are designed around a simple principle: **the model may explain, but
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Hardik182005&theme=tokyonight&v=20260821-private" width="96%" alt="GitHub profile summary" />
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Hardik182005&theme=tokyonight" width="31.5%" alt="GitHub statistics" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Hardik182005&theme=tokyonight&v=20260821-private-commits" width="31.5%" alt="GitHub statistics" />
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Hardik182005&theme=tokyonight" width="31.5%" alt="Top languages by repository" />
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Hardik182005&theme=tokyonight" width="31.5%" alt="Top languages by commit" />
 
